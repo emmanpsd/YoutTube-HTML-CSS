@@ -1,0 +1,248 @@
+body{
+    background-color: #181818;
+    color: #909090;
+    font-family: Helvetica, sans-serif;
+}
+h4{
+    color: white;
+    padding-top: 5px;
+    font-size: 14px;
+}
+*{
+    margin: 0;
+}
+.logo{
+    height: 20px;
+    
+}
+i{
+    color: white;
+    height: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+}
+.topContainer{
+    background-color: #202020;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content:space-between;
+    padding-right: 20px; 
+    
+}
+.topSection{
+    margin: 0;
+    position: fixed;
+    z-index: 4;
+}
+
+.topLeft{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 20vw;
+    
+    
+}
+.sidebar{
+    width: 15vw;
+    background-color: #202020;
+    color: white;
+    height: 100vh;
+    overflow-y:auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 3;
+    position: fixed;
+}
+.sideContainer div{
+    padding-top: 25px;
+}
+h3{
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    color: #909090;
+}
+p{
+    font-size: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+.sideContainer p:hover{
+    background-color: #383838;
+    cursor: pointer;
+}
+.sideContainer div{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #383838;
+}
+.topMiddle button{
+    height: 41px;
+    margin-right: 20px;
+}
+.topContainer{
+    display: flex;
+    
+}
+
+.topMiddle input{
+    width: 45vw;
+    height: 37px;
+    background-color: #121212;
+    border: 1px solid #383838;
+    padding-left: 10px;
+   
+}
+.topMiddle input:focus{
+    border: none;
+}
+.topMiddle button{
+    background-color: #313131;
+    border: none;
+}
+.topRight{
+    margin-top: 10px;
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    position: relative;
+    
+}
+.topRight i{
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+    padding-right: 20px;
+}
+.topRight .avatar{
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url('https://yt3.ggpht.com/yti/ANoDKi5I3XGdza0za_zmRyZ3rdgsVoN2_2fsIcsRyX6DYw=s88-c-k-c0x00ffffff-no-rj-mo');
+    
+    /* make a square container */
+    width: 30px;
+    height: 30px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+
+   
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+    
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tags{
+    position: relative;
+    width: 100vw;
+    background-color: #202020;
+    padding: 9px;
+    float: right;
+    
+    
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.tagContainer{
+    
+    text-align: left;
+    width: 900px;   
+    overflow-x:scroll;
+    display: flex;
+    padding-left: 20vw;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+}
+.tagContainer button{
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #373737;
+    border: 1px solid #909090;
+    border-radius: 50px;
+    color: white;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+hr{
+    margin-bottom: 9px;
+    border: none;
+    height: 1px;
+    background-color: #383838;
+}
+
+.videoSection{
+    padding-top: 160px;
+    padding-left: 16em;
+    margin-bottom: 80px;
+    
+   
+}
+.imageContainer{
+    max-height: 202px;
+    height: 160px;
+    width: 270px;
+    background-color: black;
+    margin-bottom:10px;
+}
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+}
+.videoRow{
+    justify-content: space-between;
+    display: flex;
+    padding:30px;
+}
+.video h4{
+    width: 270px;
+}
+.video p{
+    padding: 0;
+    padding-top: 5px;
+    
+}
+.video{
+    cursor: pointer;
+}
+
+.subSidebar img{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+  
+    
+}
+.subSidebar p{
+    padding-top: 5px;
+    
+}
+br{
+
+    content: "";
+  margin: 2em;
+  display: block;
+  font-size: 34%;
+}
